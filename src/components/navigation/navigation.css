@@ -1,0 +1,43 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  background-color: rgb(22, 51, 81);
+  border-top: 1px solid rgb(0, 153, 255);
+  color: white;
+  font-size: 16px;
+  box-shadow: 0px 5px 5px rgb(16, 41, 70);
+  /* position:sticky to stick the nav bar on top of the page while scrolling */
+  position: sticky;
+  top: 0;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+}
+
+.menu p {
+  margin: 15px 18px;
+  text-transform: uppercase;
+}
+
+#login {
+  height: 28px;
+  width: 60px;
+  margin-top: 11px;
+  font-family: inherit;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 0px;
+  background-color: rgb(43, 79, 116);
+  border: 0px;
+  border-radius: 3px;
+}

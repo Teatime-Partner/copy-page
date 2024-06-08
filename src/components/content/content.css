@@ -1,0 +1,12 @@
+.container {
+  margin: 0px auto;
+  padding: 15px;
+  width: 900px;
+  background-color: rgb(43, 79, 116);
+  height: 1300px;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
