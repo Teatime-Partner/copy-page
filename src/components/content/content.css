@@ -1,12 +1,75 @@
-.container {
+.container,
+.big {
   margin: 0px auto;
   padding: 15px;
   width: 900px;
-  background-color: rgb(43, 79, 116);
-  height: 1300px;
+  background-color: rgb(16, 47, 88);
+  height: max-content;
   border-radius: 3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
+  align-content: flex-start;
+}
+.big {
+  padding: 10px 0px;
+}
+
+.thumbnail-small {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.thumbnail-small:hover {
+  transform: scale(1.05);
+}
+.thumbnail-big {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.thumbnail-big:hover {
+  transform: scale(1.05);
+}
+
+.content-button {
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+  margin: 5px;
+  padding: 5px auto;
+  width: 215px;
+  height: 40px;
+  background-color: rgb(43, 79, 116);
+  border: none;
+  border-radius: 3px;
+}
+
+.content-button:hover {
+  background-color: rgb(66, 120, 174);
+}
+
+#meta {
+  background-color: rgb(169, 155, 43);
+}
+#meta:hover {
+  background-color: rgb(201, 182, 42);
+}
+
+#more {
+  text-transform: none;
+  font-weight: normal;
+  width: 300px;
+  background-color: rgb(55, 100, 146);
+  border: 1px solid rgb(93, 141, 189);
+}
+
+#more:hover {
+  background-color: rgb(79, 138, 197);
 }
